@@ -16,14 +16,3 @@
 hello <- function() {
   print("Hello, world!")
 }
-
-my_sequence <- function(xstart,xend) {
-  return(xstart:xend)
-}
-
-
-my_repeat <- function(val, n) {
-  return(rep(val, n))
-}
-
-# my_repeat(2,3)

@@ -22,3 +22,8 @@ my_sequence <- function(xstart,xend) {
 }
 
 
+my_repeat <- function(val, n) {
+  return(rep(val, n))
+}
+
+# my_repeat(2,3)
